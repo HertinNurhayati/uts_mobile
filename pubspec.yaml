@@ -1,0 +1,50 @@
+name: uts_mobile
+description: A new Flutter project.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Menambahkan paket ikon iOS
+  cupertino_icons: ^1.0.2
+
+  # Paket untuk mendukung SVG
+  flutter_svg: ^2.0.6
+
+  # Paket untuk font Google
+  google_fonts: ^5.0.0
+
+  # Paket untuk ikon Feather
+  feather_icons: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Paket lint untuk praktik coding yang baik
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/ # Menyertakan folder gambar
+    - assets/svgs/   # Menyertakan folder SVG
+    - assets/images/poto.jpg
+    - assets/images/Dr1.jpg
+    - assets/images/Dr2.jpg
+
+
+  # Jika Anda memiliki font kustom, Anda dapat menambahkannya di sini
+  # fonts:
+  #   - family: YourFontFamily
+  #     fonts:
+  #       - asset: fonts/YourFont-Regular.ttf
+  #       - asset: fonts/YourFont-Bold.ttf
+  #         weight: 700
